@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(226, 255, 196);
+}
+#contenedor{
+    background-color: aqua;
+    width:80%;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius:6px;
+    overflow:hidden;
+}
+#header{
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+#contIzq{
+    background-color: rgb(221, 0, 255);
+    width: 20%;
+    float:left;
+    height: 300px;
+    text-align: justify;
+}
+.contCent{
+    background-color: rgb(47, 255, 0);
+    width: 60%;
+    float:left;
+    height: 300px;
+    text-align: justify;
+}
+.contDer{
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    float:left;
+    height: 300px;
+    text-align: justify;
+}
+.footer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 80px;
+    float: none;
+    clear: both;
+    text-align: center;
+}
